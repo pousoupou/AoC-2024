@@ -1,7 +1,7 @@
 import java.io.File;
 import java.util.*;
 
-public class day_one{
+public class Day_1{
     public static void main(String[] args){
         String filePath = "input.txt";
         
@@ -19,6 +19,8 @@ public class day_one{
                 group1.sort(null);
                 group2.sort(null);
             }
+
+            reader.close();
         } catch (Exception e) {
             throw new Error(e);
         }
