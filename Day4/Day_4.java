@@ -31,7 +31,6 @@ public class Day_4 {
             counter += list.size();
 
             reader.close();
-            reader = new Scanner(new File(filePath));
 
             reader = new Scanner(new File(filePath)); 
             char[][] matrix = new char[rows][columns];
